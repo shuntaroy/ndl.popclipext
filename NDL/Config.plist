@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Name</key>
+	<string>NDL Search</string>
+	<key>Extension Identifier</key>
+	<string>com.gascar.popclip.extension.ndl-search</string>
+	<key>Extension Description</key>
+	<string>Search a book title on NDL</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>URL</key>
+			<string>http://iss.ndl.go.jp/api/openurl?title={popclip text}</string>
+			<key>Image File</key>
+			<string>ndl.png</string>
+			<key>Title</key>
+			<string>NDL Search</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1900}$</string>
+		</dict>
+	</array>
+</dict>
+</plist>
