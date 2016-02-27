@@ -1,4 +1,4 @@
 NDL PopClip Extension
 ----------------------------------
 
-PopClipで選択したテキストを国立国会図書館（NDL）の書籍名検索APIに投げるPopClip拡張機能です。
+PopClip で選択したテキストを国立国会図書館（NDL）の書籍名検索 API に投げる PopClip 拡張機能です。
